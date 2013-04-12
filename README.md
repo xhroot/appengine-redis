@@ -18,7 +18,7 @@ Use `PUT` to add/update values.  This method uses `r.set()`:
     $ curl -w '\n' 'http://yourappname.appspot.com?igor&proj'                   
     proj="treadstone"<br>igor="IT WORKS!"<br>                                   
                                                                                 
-Use `DELETE` - r.delete() - to remove values:                                   
+Use `DELETE` - `r.delete()` - to remove values:                                   
                                                                                 
     $ curl -w '\n' 'http://yourappname.appspot.com?igor' -X DELETE              
                                                                                 
